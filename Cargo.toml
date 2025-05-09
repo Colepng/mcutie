@@ -16,14 +16,14 @@ log = ["dep:log"]
 [dependencies]
 defmt = { version = "0.3.10", optional = true }
 log = { version = "0.4.22", optional = true }
-embassy-net = { version = "0.5.0", features = [
+embassy-net = { version = "0.6.0", features = [
   "dns",
   "medium-ip",
   "medium-ethernet",
   "proto-ipv4",
   "tcp",
 ] }
-embassy-time = "0.3.2"
+embassy-time = "0.4.0"
 serde = { version = "1.0.217", default-features = false, features = [
   "derive",
 ], optional = true }
